@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable:no">
+    <title>Educacion </title>
+  </head>
+  <body>
+    <header>
+      <svg>
+        <image xlink:href="imagenes/logo2.svg"  width="150px" height="150px"></image>
+      </svg>
+    </header>
+      <h1> Hoja de vida</h1>
+      <h2> Datos personales</h2>
+      <h3> Alexandra Garnica</h3>
+      <h3> Guayaquil, 11 de agosto de 1978</h3>
+      <ul>
+        <li><a href="index.html"> Inicio</a></li>
+        <li><a href="educacion.html"target="_blank"> Educación</a></li>
+        <li><a href="experiencia.html"target="_blank">Experiencia</a></li>
+      </ul>
+      <h2>Educación</h2>
+    <table border="1",cellpadding="10", cellspacing="4" bordercolor="red" width="50%">
+      <thead>
+        <tr>
+          <th bgcolor="yellow" >  Año  </th>
+          <th bgcolor="yellow"> Institución</th>
+          <th bgcolor="yellow"> Lugar</th>
+          <th bgcolor="yellow"> ¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td align=center>  2002 </td><td align=center > Universidad de Guayaquil </td><td align=center > Guayaquil </td><td align=center > SI </td></tr>
+        <tr><td align=center> 2009 </td><td align=center > Universidad de Alicante</td><td align=center >España</td><td align=center>SI</td></tr>
+        <tr><td align=center> 2017 </td><td align=center>Next-U</td><td align=center>On-line</td><td align=center>NO</td></tr>
+      </tbody>
+    </table><br>
+
+    <form autocomplete="on" name="Agregar Estudios">
+      <fieldset>
+        <legend><strong>Agregar Estudios</strong></legend>
+        <label for="ano">Año</label>
+        <select name="ano">
+          <option value="1">2012</option>
+          <option value="2">2013</option>
+          <option value="3">2014</option>
+          <option value="4">2015</option>
+          <option value="5">2016</option>
+          <option value="6">2017</option>
+        </select><br><br>
+        <label for="institucion"> Institución: </label>
+        <input type="text" name="institucion" maxlength="50" size="20" required ><br><br>
+        <label for="lugar"> Lugar: </label>
+        <input type="text" name="lugar" maxlength="50" size="25" required ><br><br>
+        <label > ¿Culminó?: </label>
+        <input type="checkbox" name="si" value="SI">Si
+        <input type="checkbox" name="no" value="NO">No<br><br>
+        <input type="submit" name="enviar" style="color: #003366; background-color: #99CCFF" value="Enviar">
+      </fieldset>
+    </form>
+    <br>
+    <footer> <strong><em>Derechos Reservados </strong></em>
+      <ul>
+        <li>Correo electrónico: <a href="mailto:alexita1978@hotmail.com" target="_blank">alexita1978@hotmail.com</a></li>
+        <li>Teléfono : (+593) 993653487 </li>
+        <li>Dirección: Urb. Arcadia - Daule - Guayas</li>
+      </ul>
+    </footer>
+  </body>
+</html>
